@@ -1,5 +1,110 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact | TWilliams</title><link rel="stylesheet" href="styles.css"></head><body>
-<header class="site-header"><div class="container nav-row"><a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a><nav class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="products.html">Products</a><a href="gallery.html">Gallery</a><a href="about.html">About Us</a><a class="active" href="contact.html">Contact</a></nav><a class="phone" href="tel:6068789231">☎ (606) 878-9231</a><button class="menu-btn" id="menuBtn">Menu</button></div></header>
-<main><section class="page-hero"><div class="container"><p class="eyebrow">Start a Conversation</p><h1>Contact</h1><p>Tell TWilliams what you are planning. Include the product type, property details, approximate dimensions, and preferred timeline when available.</p></div></section>
-<section class="section"><div class="container"><div class="form-shell"><div><p class="eyebrow">Project Information</p><h2 class="section-title">Request a custom quote.</h2><p class="section-copy">Submit the form and TWilliams Placeholder will follow up with availability, recommendations, and the next steps for your project.</p><div class="contact-stack"><div class="contact-card"><strong>Phone</strong><span>(606) 878-9231</span></div><div class="contact-card"><strong>Email</strong><span>TWilliams Placeholder</span></div><div class="contact-card"><strong>Location</strong><span>TWilliams Placeholder, KY 00000</span></div><div class="contact-card"><strong>Hours</strong><span>TWilliams Placeholder</span></div></div></div><form class="quote-form" onsubmit="event.preventDefault();alert('TWilliams Placeholder: message submitted.');"><input aria-label="First name" placeholder="First Name" required><input aria-label="Last name" placeholder="Last Name" required><input type="email" aria-label="Email" placeholder="Email Address" required><input aria-label="Phone" placeholder="Phone Number"><select aria-label="Product"><option value="">Choose a Product</option><option>Handrails</option><option>Entrance Gates</option><option>Walkthrough Gates</option><option>Spiral Staircases</option><option>Other Custom Metalwork</option></select><input aria-label="Project location" placeholder="Project City / Location"><textarea aria-label="Project details" placeholder="Describe your project, dimensions, style, and timeline."></textarea><button class="btn btn-primary" type="submit">Submit Request</button></form></div></div></section></main>
-<footer><div class="container footer-row"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a><small>Quality metalwork. Built to last.</small></div><div>TWilliams Placeholder<br>TWilliams Placeholder, KY 00000</div><div>(606) 878-9231<br>TWilliams Placeholder</div><div class="socials"><a href="#">f</a><a href="#">◎</a><a href="mailto:placeholder@example.com">✉</a></div></div><div class="copyright">© 2026 TWilliams. All rights reserved.</div></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Request a custom metalwork estimate from TWilliams for handrails, gates, spiral staircases, and other fabrication projects.">
+  <title>Contact & Free Estimate | TWilliams</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-row">
+    <a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="products.html">Products</a><a href="gallery.html">Gallery</a><a href="about.html">About Us</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+    <a class="phone" href="tel:6068789231">☎ (606) 878-9231</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero contact-hero">
+    <div class="container">
+      <p class="eyebrow">Start Your Project</p>
+      <h1>Request a Free Estimate</h1>
+      <p>Tell us what you are planning and include photos, approximate dimensions, project location, and your preferred timeline whenever possible.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <aside class="contact-panel">
+        <p class="eyebrow">Contact TWilliams</p>
+        <h2 class="section-title">Let’s build something that lasts.</h2>
+        <p class="section-copy">Call, email, or send the project form. TWilliams will review the details and follow up about design options, scheduling, and next steps.</p>
+
+        <div class="contact-stack">
+          <a class="contact-card contact-link" href="tel:6068789231"><span class="contact-icon">☎</span><span><strong>Call Us</strong><span>(606) 878-9231</span></span></a>
+          <a class="contact-card contact-link" href="mailto:twilliamsplaceholder@example.com"><span class="contact-icon">✉</span><span><strong>Email</strong><span>twilliamsplaceholder@example.com</span></span></a>
+          <div class="contact-card contact-link"><span class="contact-icon">⌖</span><span><strong>Business Address</strong><span>TWilliams Placeholder<br>Lexington, KY 00000</span></span></div>
+          <div class="contact-card contact-link"><span class="contact-icon">◷</span><span><strong>Business Hours</strong><span>Monday–Friday: 8:00 AM–5:00 PM<br>Saturday: By appointment</span></span></div>
+        </div>
+
+        <div class="service-area">
+          <strong>Service Area</strong>
+          <p>Serving Lexington and surrounding communities. TWilliams Placeholder for additional service-area details.</p>
+        </div>
+      </aside>
+
+      <div class="form-card">
+        <div class="form-heading">
+          <p class="eyebrow">Project Details</p>
+          <h2>Get your estimate started.</h2>
+          <p>Required fields are marked with an asterisk.</p>
+        </div>
+
+        <form class="quote-form" id="quoteForm" enctype="multipart/form-data">
+          <label><span>First Name *</span><input name="firstName" autocomplete="given-name" required></label>
+          <label><span>Last Name *</span><input name="lastName" autocomplete="family-name" required></label>
+          <label><span>Email Address *</span><input type="email" name="email" autocomplete="email" required></label>
+          <label><span>Phone Number *</span><input type="tel" name="phone" autocomplete="tel" required></label>
+          <label class="full"><span>Project Type *</span>
+            <select name="projectType" required>
+              <option value="">Select a service</option>
+              <option>Handrails</option><option>Entrance Gates</option><option>Walkthrough Gates</option><option>Spiral Staircases</option><option>Other Custom Metalwork</option>
+            </select>
+          </label>
+          <label><span>Project Address</span><input name="address" autocomplete="street-address"></label>
+          <label><span>City / Location *</span><input name="location" required></label>
+          <label><span>Preferred Timeline</span><select name="timeline"><option value="">Select timeline</option><option>As soon as possible</option><option>Within 1 month</option><option>Within 2–3 months</option><option>Within 3–6 months</option><option>Planning / researching</option></select></label>
+          <label><span>Approximate Budget</span><select name="budget"><option value="">Select budget</option><option>Under $2,500</option><option>$2,500–$5,000</option><option>$5,000–$10,000</option><option>$10,000+</option><option>Not sure yet</option></select></label>
+          <label class="full"><span>Project Description *</span><textarea name="details" placeholder="Describe the project, approximate dimensions, preferred style or finish, installation needs, and any deadlines." required></textarea></label>
+          <label class="full upload-field"><span>Project Photos</span><input type="file" name="photos" accept="image/*" multiple><small>Add photos, sketches, or inspiration images. Maximum file handling depends on the form service connected at launch.</small></label>
+          <label class="consent full"><input type="checkbox" required><span>I agree that TWilliams may contact me about this estimate request.</span></label>
+          <button class="btn btn-primary full" type="submit">Send Estimate Request</button>
+          <p class="form-status full" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-note full">This demo currently opens your email application and addresses the request to <strong>twilliamsplaceholder@example.com</strong>. Replace that email in <code>script.js</code>, or connect Formspree, Netlify Forms, or a server endpoint before publishing.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <div class="container map-grid">
+      <div>
+        <p class="eyebrow">Find Us</p>
+        <h2 class="section-title">Serving Central Kentucky.</h2>
+        <p class="section-copy">The map uses Lexington as a temporary service-area location. Replace it with the exact TWilliams business address before launch.</p>
+        <div class="actions"><a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Lexington%2C+KY" target="_blank" rel="noopener">Open in Google Maps</a></div>
+      </div>
+      <div class="map-frame"><iframe title="TWilliams service area map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Lexington%2C%20KY&output=embed"></iframe></div>
+    </div>
+  </section>
+</main>
+
+<a class="mobile-call" href="tel:6068789231">☎ Call TWilliams</a>
+
+<footer>
+  <div class="container footer-row">
+    <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a><small>Quality metalwork. Built to last.</small></div>
+    <div><strong>Visit</strong><br>TWilliams Placeholder<br>Lexington, KY 00000</div>
+    <div><strong>Contact</strong><br><a href="tel:6068789231">(606) 878-9231</a><br><a href="mailto:twilliamsplaceholder@example.com">twilliamsplaceholder@example.com</a></div>
+    <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="mailto:twilliamsplaceholder@example.com" aria-label="Email">✉</a></div>
+  </div>
+  <div class="copyright">© 2026 TWilliams. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
