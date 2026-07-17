@@ -40,3 +40,29 @@ a.contact-link:hover{transform:translateX(4px);border-color:rgba(201,150,53,.48)
 .form-status.success{color:#54b96c}
 .form-status.error{color:#e36a6a}
 .quote-form button:disabled{cursor:not-allowed;opacity:.65}
+.selected-files{
+    margin-top:12px;
+}
+
+.file-tag{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f4f4f4;
+    padding:10px 14px;
+    border-radius:8px;
+    margin-top:8px;
+    font-size:14px;
+}
+
+.file-tag button{
+    background:none;
+    border:none;
+    color:#d33;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.file-tag button:hover{
+    color:red;
+}
