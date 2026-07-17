@@ -2,231 +2,546 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Request a custom metalwork estimate from TWilliams for handrails, gates, spiral staircases, and other fabrication projects.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Request a custom metalwork estimate from TWilliams for handrails, entrance gates, walkthrough gates, spiral staircases, and other fabrication projects."
+  >
+
   <title>Contact & Free Estimate | TWilliams</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header class="site-header">
-  <div class="container nav-row">
-    <a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a>
-    <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
-      <a href="index.html">Home</a><a href="products.html">Products</a><a href="gallery.html">Gallery</a><a href="about.html">About Us</a><a class="active" href="contact.html">Contact</a>
-    </nav>
-    <a class="phone" href="tel:6063090535">☎ (606) 309-0535</a>
-    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu</button>
-  </div>
-</header>
 
-<main>
-  <section class="page-hero contact-hero">
-    <div class="container">
-      <p class="eyebrow">Start Your Project</p>
-      <h1>Request a Free Estimate</h1>
-      <p>Tell us what you are planning and include photos, approximate dimensions, project location, and your preferred timeline whenever possible.</p>
+  <header class="site-header">
+    <div class="container nav-row">
+
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        TWILLIAMS
+      </a>
+
+      <nav
+        class="nav-links"
+        id="navLinks"
+        aria-label="Primary navigation"
+      >
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="phone" href="tel:6063090535">
+        ☎ (606) 309-0535
+      </a>
+
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        Menu
+      </button>
+
     </div>
-  </section>
+  </header>
 
-  <section class="section">
-    <div class="container contact-layout">
-      <aside class="contact-panel">
-        <p class="eyebrow">Contact TWilliams</p>
-        <h2 class="section-title">Let’s build something that lasts.</h2>
-        <p class="section-copy">Call, email, or send the project form. TWilliams will review the details and follow up about design options, scheduling, and next steps.</p>
 
-        <div class="contact-stack">
-          <a class="contact-card contact-link" href="tel:6063090535"><span class="contact-icon">☎</span><span><strong>Call Us</strong><span>(606) 309-0535</span></span></a>
-          <a class="contact-card contact-link" href="mailto:lynked5m@gmail.com"><span class="contact-icon">✉</span><span><strong>Email</strong><span>lynked5m@gmail.com</span></span></a>
-          <div class="contact-card contact-link"><span class="contact-icon">⌖</span><span><strong>Business Address</strong><span>TWilliams Placeholder<br>London, KY 00000</span></span></div>
-          <div class="contact-card contact-link"><span class="contact-icon">◷</span><span><strong>Business Hours</strong><span>Monday–Friday: 8:00 AM–5:00 PM<br>Saturday: By appointment</span></span></div>
-        </div>
+  <main>
 
-        <div class="service-area">
-          <strong>Service Area</strong>
-          <p>Serving London and surrounding communities. TWilliams Business for additional service-area details.</p>
-        </div>
-      </aside>
+    <section class="page-hero contact-hero">
+      <div class="container">
 
-      <div class="form-card">
-        <div class="form-heading">
-          <p class="eyebrow">Project Details</p>
-          <h2>Get your estimate started.</h2>
-          <p>Required fields are marked with an asterisk.</p>
-        </div>
+        <p class="eyebrow">Start Your Project</p>
 
-<form class="quote-form" id="quoteForm" enctype="multipart/form-data">
+        <h1>Request a Free Estimate</h1>
 
-through:
+        <p>
+          Tell us about your project and include approximate dimensions,
+          location, preferred timeline, and photos whenever possible.
+        </p>
 
-</form>
-
-with this:
-
-<form
-  class="quote-form"
-  id="quoteForm"
-  action="https://formspree.io/f/xzdnerod"
-  method="POST"
-  enctype="multipart/form-data"
->
-
-  <label>
-    <span>First Name *</span>
-    <input type="text" name="firstName" autocomplete="given-name" required>
-  </label>
-
-  <label>
-    <span>Last Name *</span>
-    <input type="text" name="lastName" autocomplete="family-name" required>
-  </label>
-
-  <label>
-    <span>Email Address *</span>
-    <input type="email" name="email" autocomplete="email" required>
-  </label>
-
-  <label>
-    <span>Phone Number *</span>
-    <input type="tel" name="phone" autocomplete="tel" required>
-  </label>
-
-  <label class="full">
-    <span>Project Type *</span>
-    <select name="projectType" required>
-      <option value="">Select a service</option>
-      <option>Handrails</option>
-      <option>Entrance Gates</option>
-      <option>Walkthrough Gates</option>
-      <option>Spiral Staircases</option>
-      <option>Other Custom Metalwork</option>
-    </select>
-  </label>
-
-  <label>
-    <span>Project Address</span>
-    <input type="text" name="address" autocomplete="street-address">
-  </label>
-
-  <label>
-    <span>City / Location *</span>
-    <input type="text" name="location" required>
-  </label>
-
-  <label>
-    <span>Preferred Timeline</span>
-    <select name="timeline">
-      <option value="">Select timeline</option>
-      <option>As soon as possible</option>
-      <option>Within 1 month</option>
-      <option>Within 2–3 months</option>
-      <option>Within 3–6 months</option>
-      <option>Planning / Researching</option>
-    </select>
-  </label>
-
-  <label>
-    <span>Approximate Budget</span>
-    <select name="budget">
-      <option value="">Select budget</option>
-      <option>Under $2,500</option>
-      <option>$2,500–$5,000</option>
-      <option>$5,000–$10,000</option>
-      <option>$10,000+</option>
-      <option>Not Sure Yet</option>
-    </select>
-  </label>
-
-  <label class="full">
-    <span>Project Description *</span>
-    <textarea
-      name="details"
-      rows="7"
-      placeholder="Describe your project, approximate dimensions, materials you'd like, preferred finish, installation requirements, and any deadlines."
-      required
-    ></textarea>
-  </label>
-
-  <label class="full upload-field">
-    <span>Project Photos</span>
-    <input
-      type="file"
-      name="attachment"
-      accept="image/*"
-      multiple
-    >
-    <small>
-      Upload photos, drawings, or inspiration images to help us understand your project.
-    </small>
-  </label>
-
-  <!-- Honeypot Spam Protection -->
-  <input
-    type="text"
-    name="_gotcha"
-    style="display:none"
-  >
-
-  <!-- Email Subject -->
-  <input
-    type="hidden"
-    name="_subject"
-    value="New TWilliams Quote Request"
-  >
-
-  <!-- Disable Captcha -->
-  <input
-    type="hidden"
-    name="_captcha"
-    value="false"
-  >
-
-  <label class="consent full">
-    <input
-      type="checkbox"
-      name="contactConsent"
-      value="Agreed"
-      required
-    >
-    <span>
-      I agree that TWilliams may contact me regarding this estimate request.
-    </span>
-  </label>
-
-  <button
-    class="btn btn-primary full"
-    type="submit"
-  >
-    Request My Free Estimate
-  </button>
-
-</form>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="map-section">
-    <div class="container map-grid">
+
+    <section class="section">
+      <div class="container contact-layout">
+
+        <aside class="contact-panel">
+
+          <p class="eyebrow">Contact TWilliams</p>
+
+          <h2 class="section-title">
+            Let’s build something that lasts.
+          </h2>
+
+          <p class="section-copy">
+            Call, email, or complete the project form. TWilliams will review
+            your information and follow up regarding design options,
+            scheduling, pricing, and next steps.
+          </p>
+
+
+          <div class="contact-stack">
+
+            <a
+              class="contact-card contact-link"
+              href="tel:6063090535"
+            >
+              <span class="contact-icon">☎</span>
+
+              <span>
+                <strong>Call Us</strong>
+                <span>(606) 309-0535</span>
+              </span>
+            </a>
+
+
+            <a
+              class="contact-card contact-link"
+              href="mailto:lynked5m@gmail.com"
+            >
+              <span class="contact-icon">✉</span>
+
+              <span>
+                <strong>Email</strong>
+                <span>lynked5m@gmail.com</span>
+              </span>
+            </a>
+
+
+            <div class="contact-card contact-link">
+              <span class="contact-icon">⌖</span>
+
+              <span>
+                <strong>Business Address</strong>
+                <span>
+                  TWilliams Placeholder<br>
+                  London, KY 00000
+                </span>
+              </span>
+            </div>
+
+
+            <div class="contact-card contact-link">
+              <span class="contact-icon">◷</span>
+
+              <span>
+                <strong>Business Hours</strong>
+                <span>
+                  Monday–Friday: 8:00 AM–5:00 PM<br>
+                  Saturday: By appointment
+                </span>
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="service-area">
+            <strong>Service Area</strong>
+
+            <p>
+              Serving London, Kentucky, and surrounding communities.
+              Contact TWilliams for additional service-area information.
+            </p>
+          </div>
+
+        </aside>
+
+
+        <div class="form-card">
+
+          <div class="form-heading">
+
+            <p class="eyebrow">Project Details</p>
+
+            <h2>Get your estimate started.</h2>
+
+            <p>
+              Complete the form below. Required fields are marked with an
+              asterisk.
+            </p>
+
+          </div>
+
+
+          <form
+            class="quote-form"
+            id="quoteForm"
+            action="https://formspree.io/f/xzdnerod"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+
+            <label>
+              <span>First Name *</span>
+
+              <input
+                type="text"
+                name="firstName"
+                autocomplete="given-name"
+                required
+              >
+            </label>
+
+
+            <label>
+              <span>Last Name *</span>
+
+              <input
+                type="text"
+                name="lastName"
+                autocomplete="family-name"
+                required
+              >
+            </label>
+
+
+            <label>
+              <span>Email Address *</span>
+
+              <input
+                type="email"
+                name="email"
+                autocomplete="email"
+                required
+              >
+            </label>
+
+
+            <label>
+              <span>Phone Number *</span>
+
+              <input
+                type="tel"
+                name="phone"
+                autocomplete="tel"
+                required
+              >
+            </label>
+
+
+            <label class="full">
+              <span>Project Type *</span>
+
+              <select name="projectType" required>
+                <option value="">Select a service</option>
+                <option value="Handrails">Handrails</option>
+                <option value="Entrance Gates">Entrance Gates</option>
+                <option value="Walkthrough Gates">Walkthrough Gates</option>
+                <option value="Spiral Staircases">Spiral Staircases</option>
+                <option value="Other Custom Metalwork">
+                  Other Custom Metalwork
+                </option>
+              </select>
+            </label>
+
+
+            <label>
+              <span>Project Address</span>
+
+              <input
+                type="text"
+                name="address"
+                autocomplete="street-address"
+              >
+            </label>
+
+
+            <label>
+              <span>City / Location *</span>
+
+              <input
+                type="text"
+                name="location"
+                autocomplete="address-level2"
+                required
+              >
+            </label>
+
+
+            <label>
+              <span>Preferred Timeline</span>
+
+              <select name="timeline">
+                <option value="">Select timeline</option>
+                <option value="As soon as possible">
+                  As soon as possible
+                </option>
+                <option value="Within 1 month">
+                  Within 1 month
+                </option>
+                <option value="Within 2-3 months">
+                  Within 2–3 months
+                </option>
+                <option value="Within 3-6 months">
+                  Within 3–6 months
+                </option>
+                <option value="Planning or researching">
+                  Planning / Researching
+                </option>
+              </select>
+            </label>
+
+
+            <label>
+              <span>Approximate Budget</span>
+
+              <select name="budget">
+                <option value="">Select budget</option>
+                <option value="Under $2,500">
+                  Under $2,500
+                </option>
+                <option value="$2,500-$5,000">
+                  $2,500–$5,000
+                </option>
+                <option value="$5,000-$10,000">
+                  $5,000–$10,000
+                </option>
+                <option value="$10,000+">
+                  $10,000+
+                </option>
+                <option value="Not sure yet">
+                  Not Sure Yet
+                </option>
+              </select>
+            </label>
+
+
+            <label class="full">
+              <span>Project Description *</span>
+
+              <textarea
+                name="details"
+                rows="7"
+                placeholder="Describe your project, approximate dimensions, preferred materials, style or finish, installation requirements, and any deadlines."
+                required
+              ></textarea>
+            </label>
+
+
+            <label class="full upload-field">
+              <span>Project Photos</span>
+
+              <input
+                type="file"
+                name="attachment"
+                accept="image/png, image/jpeg, image/webp"
+                multiple
+              >
+
+              <small>
+                Upload photos, drawings, sketches, or inspiration images that
+                may help explain your project.
+              </small>
+            </label>
+
+
+            <!-- Spam-protection honeypot field -->
+            <div
+              style="position:absolute; left:-9999px;"
+              aria-hidden="true"
+            >
+              <label>
+                Leave this field empty
+                <input
+                  type="text"
+                  name="_gotcha"
+                  tabindex="-1"
+                  autocomplete="off"
+                >
+              </label>
+            </div>
+
+
+            <!-- Subject shown in Formspree notification emails -->
+            <input
+              type="hidden"
+              name="_subject"
+              value="New TWilliams Quote Request"
+            >
+
+
+            <!-- Identifies the form inside Formspree submissions -->
+            <input
+              type="hidden"
+              name="formName"
+              value="TWilliams Free Estimate Form"
+            >
+
+
+            <label class="consent full">
+
+              <input
+                type="checkbox"
+                name="contactConsent"
+                value="Agreed"
+                required
+              >
+
+              <span>
+                I agree that TWilliams may contact me regarding this estimate
+                request.
+              </span>
+
+            </label>
+
+
+            <button
+              class="btn btn-primary full"
+              type="submit"
+            >
+              Request My Free Estimate
+            </button>
+
+
+            <p
+              class="form-status full"
+              id="formStatus"
+              role="status"
+              aria-live="polite"
+            ></p>
+
+
+            <p class="form-note full">
+              Your information will only be used to review and respond to your
+              estimate request.
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="map-section">
+      <div class="container map-grid">
+
+        <div>
+
+          <p class="eyebrow">Find Us</p>
+
+          <h2 class="section-title">
+            Serving Southeastern Kentucky.
+          </h2>
+
+          <p class="section-copy">
+            TWilliams serves London, Kentucky, and surrounding communities.
+            Contact us to confirm availability for your project location.
+          </p>
+
+          <div class="actions">
+            <a
+              class="btn btn-secondary"
+              href="https://www.google.com/maps/search/?api=1&query=London%2C+KY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="map-frame">
+
+          <iframe
+            title="TWilliams service area map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=London%2C%20KY&output=embed"
+          ></iframe>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container footer-row">
+
+      <div class="footer-brand">
+
+        <a class="brand" href="index.html">
+          <span class="brand-mark"></span>
+          TWILLIAMS
+        </a>
+
+        <small>
+          Quality metalwork. Built to last.
+        </small>
+
+      </div>
+
+
       <div>
-        <p class="eyebrow">Find Us</p>
-        <h2 class="section-title">Serving Southeastern Kentucky.</h2>
-        <p class="section-copy">The map uses London as a service-area location. </p>
-        <div class="actions"><a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=London%2C+KY" target="_blank" rel="noopener">Open in Google Maps</a></div>
+        <strong>Visit</strong><br>
+        TWilliams Placeholder<br>
+        London, KY 00000
       </div>
-      <div class="map-frame"><iframe title="TWilliams service area map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=London%2C%20KY&output=embed"></iframe></div>
-    </div>
-  </section>
-</main>
 
-<footer>
-  <div class="container footer-row">
-    <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark"></span>TWILLIAMS</a><small>Quality metalwork. Built to last.</small></div>
-    <div><strong>Visit</strong><br>TWilliams Placeholder<br>London, KY 00000</div>
-    <div><strong>Contact</strong><br><a href="tel:6068789231">(606) 878-9231</a><br><a href="mailto:twilliamsplaceholder@example.com">twilliamsplaceholder@example.com</a></div>
-    <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="mailto:twilliamsplaceholder@example.com" aria-label="Email">✉</a></div>
-  </div>
-  <div class="copyright">© 2026 TWilliams. All rights reserved.</div>
-</footer>
-<script src="script.js"></script>
+
+      <div>
+        <strong>Contact</strong><br>
+
+        <a href="tel:6063090535">
+          (606) 309-0535
+        </a>
+
+        <br>
+
+        <a href="mailto:lynked5m@gmail.com">
+          lynked5m@gmail.com
+        </a>
+      </div>
+
+
+      <div class="socials">
+
+        <a href="#" aria-label="Facebook">
+          f
+        </a>
+
+        <a href="#" aria-label="Instagram">
+          ◎
+        </a>
+
+        <a
+          href="mailto:lynked5m@gmail.com"
+          aria-label="Email TWilliams"
+        >
+          ✉
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+      © 2026 TWilliams. All rights reserved.
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
